@@ -5,6 +5,7 @@ import jakarta.persistence.Converter;
 
 @Converter(autoApply = true)
 public class AnswerConverter implements AttributeConverter<Answer, String> {
+
     @Override
     public String convertToDatabaseColumn(Answer answer) {
         return answer == Answer.YES ? "Y" : "N";
