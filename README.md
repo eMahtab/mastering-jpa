@@ -49,6 +49,22 @@ All the source code for JPA(with hibernate).
 ### 5. [Criteria API](https://github.com/eMahtab/mastering-jpa/tree/main/criteria-api)
 
 
+## N+1 Select Problem and Solution :
+
+### 1. [N+1 Select Problem](https://github.com/eMahtab/mastering-jpa/tree/main/nPlusOneProblem)
+
+### 2. [N+1 Solution : Join Fetch](https://github.com/eMahtab/mastering-jpa/tree/main/join-fetch)
+
+### 3. [N+1 Solution : Entity Graph](https://github.com/eMahtab/mastering-jpa/tree/main/entity-graph)
+
+### 4. [N+1 Solution : Named Entity Graph](https://github.com/eMahtab/mastering-jpa/tree/main/named-entity-graph)
+
+
+
+
+
+
+
 
 
 
