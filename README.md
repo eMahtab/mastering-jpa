@@ -23,6 +23,8 @@ All the source code for JPA(with hibernate).
 ## 4. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
 
+# Entity Relationships :
+
 ## 5. [Many to One Relationship - Unidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/many-to-one-unidirectional) 
 
 ## 5. [Many to One or One to Many Relationship - Bidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/one-to-many-bidirectional) 
@@ -30,6 +32,8 @@ All the source code for JPA(with hibernate).
 ## 5. [One to One Relationship - Unidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/one-to-one-unidirectional) 
 
 ## 5. [One to One Relationship - Bidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/one-to-one-bidirectional) 
+
+## 5. [Many to Many Relationship - Bidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/many-to-many) 
 
 
 
