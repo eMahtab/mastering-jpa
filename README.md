@@ -39,6 +39,14 @@ All the source code for JPA(with hibernate).
 ### 6. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
 
+## Hibernate First Level Cache :
+
+### 1. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache)
+
+### 2. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache-2)
+
+
+
 ## Entity Relationship Cascade Types :
 
 ### 1. [cascade : CascadeType.PERSIST](https://github.com/eMahtab/mastering-jpa/tree/main/cascade-persist)
