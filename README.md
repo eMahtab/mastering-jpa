@@ -21,3 +21,12 @@ All the source code for JPA(with hibernate).
 ## 8. [@Embeddable and @Embedded](https://github.com/eMahtab/mastering-jpa/tree/main/embedded) 
 
 ## 4. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
+
+
+## 5. [Many to One Relationship - Unidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/many-to-one-unidirectional) 
+
+## 5. [Many to One or One to Many Relationship - Bidirectional](https://github.com/eMahtab/mastering-jpa/tree/main/one-to-many-bidirectional) 
+
+
+
+
