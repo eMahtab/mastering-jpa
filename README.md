@@ -36,6 +36,13 @@ All the source code for JPA(with hibernate).
 ### 6. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
 
+## JPA Cascade Types :
+
+### 1. [cascade : CascadeType.PERSIST](https://github.com/eMahtab/mastering-jpa/tree/main/cascade-persist)
+
+### 2. [cascade : CascadeType.REMOVE](https://github.com/eMahtab/mastering-jpa/tree/main/cascade-remove)
+
+
 ## JPA Queries :
 
 ### 1. [Native SQL query](https://github.com/eMahtab/mastering-jpa/tree/main/native-sql-query)
