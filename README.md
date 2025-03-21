@@ -1,6 +1,10 @@
 # Mastering JPA
 
-All the source code for JPA(with hibernate).
+All the source code for JPA(with hibernate)
+
+___
+
+## JPA Basics :
 
 ### 1. [Creating an Entity](https://github.com/eMahtab/mastering-jpa/tree/main/creating-entity) 
 
