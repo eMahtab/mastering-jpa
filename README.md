@@ -46,6 +46,10 @@ All the source code for JPA(with hibernate).
 
 ### 4. [Named native query](https://github.com/eMahtab/mastering-jpa/tree/main/named-native-query)
 
+### 5. [Criteria API](https://github.com/eMahtab/mastering-jpa/tree/main/criteria-api)
+
+
+
 
 
 
