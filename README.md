@@ -23,6 +23,13 @@ All the source code for JPA(with hibernate).
 ### 10. [Entity Lifecycle Callbacks](https://github.com/eMahtab/mastering-jpa/tree/main/entity-lifecycle-callbacks) 
 
 
+## Hibernate First Level Cache :
+
+### 1. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache)
+
+### 2. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache-2)
+
+
 ## Entity Relationships :
 
 
@@ -39,14 +46,6 @@ All the source code for JPA(with hibernate).
 ### 6. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
 
-## Hibernate First Level Cache :
-
-### 1. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache)
-
-### 2. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache-2)
-
-
-
 ## Entity Relationship Cascade Types :
 
 ### 1. [cascade : CascadeType.PERSIST](https://github.com/eMahtab/mastering-jpa/tree/main/cascade-persist)
@@ -59,6 +58,10 @@ All the source code for JPA(with hibernate).
 ### 1. [fetch : FetchType.LAZY](https://github.com/eMahtab/mastering-jpa/tree/main/fetch-lazy)
 
 ### 2. [fetch : FetchType.EAGER](https://github.com/eMahtab/mastering-jpa/tree/main/fetch-eager)
+
+## Orphan Removal :
+
+### 1. [Orphan Removal](https://github.com/eMahtab/mastering-jpa/tree/main/orphan-removal)
 
 
 ## JPA Queries :
