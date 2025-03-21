@@ -18,6 +18,9 @@ All the source code for JPA(with hibernate).
 
 ### 8. [@Embeddable and @Embedded](https://github.com/eMahtab/mastering-jpa/tree/main/embedded) 
 
+### 9. [Entity AttributeConverter](https://github.com/eMahtab/mastering-jpa/tree/main/attribute-converter-1) 
+
+### 10. [Entity Lifecycle Callbacks](https://github.com/eMahtab/mastering-jpa/tree/main/entity-lifecycle-callbacks) 
 
 
 ## Entity Relationships :
