@@ -22,6 +22,7 @@ All the source code for JPA(with hibernate).
 
 ### 10. [Entity Lifecycle Callbacks](https://github.com/eMahtab/mastering-jpa/tree/main/entity-lifecycle-callbacks) 
 
+___
 
 ## Hibernate First Level Cache :
 
@@ -29,6 +30,7 @@ All the source code for JPA(with hibernate).
 
 ### 2. [Hibernate First Level Cache](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-first-level-cache-2)
 
+___
 
 ## Entity Relationships :
 
@@ -45,6 +47,7 @@ All the source code for JPA(with hibernate).
 
 ### 6. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
+___
 
 ## Entity Relationship Cascade Types :
 
@@ -52,6 +55,7 @@ All the source code for JPA(with hibernate).
 
 ### 2. [cascade : CascadeType.REMOVE](https://github.com/eMahtab/mastering-jpa/tree/main/cascade-remove)
 
+___
 
 ## Entity Relationship Fetch Types :
 
@@ -59,10 +63,13 @@ All the source code for JPA(with hibernate).
 
 ### 2. [fetch : FetchType.EAGER](https://github.com/eMahtab/mastering-jpa/tree/main/fetch-eager)
 
+___
+
 ## Orphan Removal :
 
 ### 1. [Orphan Removal](https://github.com/eMahtab/mastering-jpa/tree/main/orphan-removal)
 
+___
 
 ## JPA Queries :
 
@@ -76,6 +83,7 @@ All the source code for JPA(with hibernate).
 
 ### 5. [Criteria API](https://github.com/eMahtab/mastering-jpa/tree/main/criteria-api)
 
+___
 
 ## N+1 Select Problem and Solution :
 
