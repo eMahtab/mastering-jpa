@@ -23,6 +23,7 @@ All the source code for JPA(with hibernate).
 ### 4. [Hibernate Programmatic Configuration](https://github.com/eMahtab/mastering-jpa/tree/main/hibernate-programmatic-configuration) 
 
 
+
 ## Entity Relationships :
 
 
