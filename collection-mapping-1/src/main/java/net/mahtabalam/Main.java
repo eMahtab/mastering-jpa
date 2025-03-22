@@ -27,12 +27,24 @@ public class Main {
 
             em.getTransaction().commit();
 
-
+            em.clear();
             Book findBook = em.find(Book.class, book1.getId());
             System.out.println("Find Book: " + findBook);
 
+            em.clear();
+            // Fetch book along with categories using JPQL
+            TypedQuery<Book> findQuery = em.createQuery(
+                    "SELECT b FROM Book b LEFT JOIN FETCH b.categories WHERE b.id = :id",
+                    Book.class
+            );
+            findQuery.setParameter("id", book1.getId());
+
+            Book singleBook = findQuery.getSingleResult();
+            System.out.println("Find Book: " + singleBook);
+
+            // Fetch all books along with categories
             TypedQuery<Book> query = em.createQuery(
-                    "SELECT e FROM Book e",
+                    "SELECT DISTINCT b FROM Book b LEFT JOIN FETCH b.categories",
                     Book.class
             );
 
@@ -40,7 +52,8 @@ public class Main {
 
             System.out.println("Number of books: " + books.size());
             books.forEach(book ->
-                    System.out.println("Book: " + book.getName()));
+                    System.out.println("Book: " + book.getName() + ", Categories: " + book.getCategories()));
+
 
         } catch (Exception e) {
             em.getTransaction().rollback();
