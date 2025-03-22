@@ -29,12 +29,13 @@ public class Main {
 
             em.getTransaction().commit();
 
-
+            em.clear();
             Product findProduct = em.find(Product.class, p1.getId());
             System.out.println("Find Product: " + findProduct);
 
+            em.clear();
             TypedQuery<Product> query = em.createQuery(
-                    "SELECT e FROM Product e",
+                    "SELECT DISTINCT e FROM Product e LEFT JOIN FETCH e.attributes",
                     Product.class
             );
 
@@ -42,7 +43,7 @@ public class Main {
 
             System.out.println("Number of books: " + products.size());
             products.forEach(product ->
-                    System.out.println("Product: " + product.getName()));
+                    System.out.println("Product: " + product));
 
         } catch (Exception e) {
             em.getTransaction().rollback();
