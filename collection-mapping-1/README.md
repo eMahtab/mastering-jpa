@@ -58,4 +58,19 @@ public class Book {
 
 !["Element Collection List"](element-collection-list.jpg)
 
+## Using LEFT JOIN FETCH to fetch attributes of a Product in one single query
+
+```java
+            // Fetch all books along with categories
+            TypedQuery<Book> query = em.createQuery(
+                    "SELECT DISTINCT b FROM Book b LEFT JOIN FETCH b.categories",
+                    Book.class
+            );
+
+            List<Book> books = query.getResultList();
+
+            System.out.println("Number of books: " + books.size());
+            books.forEach(book ->
+                    System.out.println("Book: " + book.getName() + ", Categories: " + book.getCategories()));
+```
 
